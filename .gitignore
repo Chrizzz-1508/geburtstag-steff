@@ -1,0 +1,28 @@
+Thumbs.db
+desktop.ini
+.DS_Store
+node_modules/
+
+# API-Schluessel, nie einchecken
+_tools/.elevenlabs-key
+*API_Key*
+*api-key*
+*.key
+
+# --- Nur lokal: alles, was die Ueberraschung verderben wuerde -------
+# Die Seite braucht davon nichts. Die Dateien bleiben auf der Platte
+# liegen, landen aber nicht im oeffentlichen Repo.
+assets/js/data-gm.js
+assets/js/gm.js
+assets/js/zuschauer.js
+spielleiter.html
+zuschauer.html
+karten.html
+handzettel/
+assets/img/PROMPTS.md
+assets/audio/TEXTE.md
+assets/audio/dateien.txt
+_tools/
+assets/css/gm.css
+assets/css/zuschauer.css
+assets/js/qr.js
